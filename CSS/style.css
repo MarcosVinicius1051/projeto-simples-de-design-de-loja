@@ -7,14 +7,26 @@
     min-height: 100vh;
 }
 
+    .main{
+        
+        flex: 1;
+        order: 2;
+    }
 
+    .div1{
+        height: 80px;
+        order: 1;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 
-.main{
-    flex: 1;
-}
+    .div2{
+        order: 3;
+    }
 
-.footer{
- flex: 1;
-}
+    .footer{
+        flex: 1;
+    }
 
 
