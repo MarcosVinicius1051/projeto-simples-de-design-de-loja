@@ -5,16 +5,18 @@
     padding: 10px;
     gap: 10px;
     min-height: 100vh;
+    max-height: 1000vh;
 }
-
+    .head{
+        flex:2 1 300px;
+    }
     .main{
-        
-        flex: 1;
+        flex: 1 1 1600px;
         order: 2;
     }
 
     .div1{
-        height: 80px;
+        flex: 1 1 80px;
         order: 1;
         display: flex;
         justify-content: center;
@@ -22,6 +24,7 @@
     }
 
     .div2{
+        
         order: 3;
     }
 
