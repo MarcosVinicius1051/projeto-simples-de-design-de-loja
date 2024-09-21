@@ -3,7 +3,7 @@
     display: flex;
     flex-direction: column;
     padding: 10px;
-    gap: 10px;
+
     min-height: 100vh;
     max-height: 1000vh;
 }
@@ -11,7 +11,7 @@
         flex:2 1 300px;
     }
     .main{
-        flex: 1 1 1600px;
+        flex: 1 1 1500px;
         order: 2;
     }
 
@@ -24,7 +24,7 @@
     }
 
     .div2{
-        
+        flex: 1 1 50px;
         order: 3;
     }
 
