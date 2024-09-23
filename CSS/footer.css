@@ -3,6 +3,7 @@
     display: flex;
     justify-content: space-around;
     background-color: rgb(48, 48, 48);
+    padding-bottom: 50px;
 }
 .coluna{
     margin-top: 15px;
@@ -21,4 +22,22 @@
    list-style-type: none;
    text-align: center;
    font-size: large;
+}
+.linha-logo{
+    background-color: rgb(41, 41, 41);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.linha-logo img{
+    margin: 10px;
+    width: 40px;
+    
+    border-radius: 50px;
+    
+    box-shadow: 0px 0px 10px white;
+}
+.linha-logo p{
+    color: white;
+    font-size: 25px;
 }

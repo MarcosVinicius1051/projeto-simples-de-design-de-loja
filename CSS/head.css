@@ -91,3 +91,79 @@
     .menu img{
         width: 45px;
     }
+
+
+@media (min-width: 768px){
+    .head{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: row; 
+        justify-content: space-between;
+        
+    }
+        .logo{
+            margin-left: 10%;
+            height: 150px;
+            display: flex;
+            flex-direction: row;
+           
+            gap: 20px;
+        }
+        .logo img{
+            width: 100px;
+        }
+       
+        .logo-name{
+            font-size: 40px;
+            margin-top: 0px;
+            margin-bottom: 0px;
+        }
+
+        .navegation-form{
+            z-index: 1;
+            width: 35%;
+            margin-right: 5%;
+            height: 60px;
+            display: flex;
+            align-items: center;
+
+        }
+        .navegation{
+            width: 100%;
+          
+        }
+        .navegation img{
+            width: 45px;
+            height: 45px; 
+        }
+        .barra-pesquisa{
+            width: 100%;
+            font-size: larger;
+        }
+    
+        .barra-pesquisa:focus-visible{
+            outline: none;
+        }
+        .barra-pesquisa::placeholder{
+            font-size: larger;
+        }
+
+        .menu-space{
+            z-index: 1;
+            display: flex;
+            justify-content: start;
+        }
+            .menu{
+                align-self: center;
+                margin-left: 20px;
+                
+            }
+            .menu img{
+                width: 45px;
+                margin-right: 60px;
+            }
+    
+}
