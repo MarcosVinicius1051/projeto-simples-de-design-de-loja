@@ -1,12 +1,8 @@
-.bloco-custom{
-    height: 100px;
-    background-color: rgb(174, 250, 250);
-    border: solid 5px white;
-}
+
 *{
     margin: 0%;
     padding: 0%;
 }
 body{
-    background-color: #494949;
+    background-color: #ffffff;
 }

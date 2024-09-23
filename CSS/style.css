@@ -1,14 +1,22 @@
 
 .container{
+   
     display: flex;
     flex-direction: column;
-    padding: 10px;
+    
 
     min-height: 100vh;
     max-height: 1000vh;
 }
     .head{
         flex:2 1 300px;
+    }
+    .content{
+        display: flex;
+        flex-direction: column;
+        
+        gap: 10px;
+        flex: 1;
     }
     .main{
         flex: 1 1 1500px;
@@ -21,11 +29,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-    }
-
-    .div2{
-        flex: 1 1 50px;
-        order: 3;
     }
 
     .footer{

@@ -1,0 +1,24 @@
+.footer{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(48, 48, 48);
+}
+.coluna{
+    margin-top: 15px;
+    margin-bottom: 10px;
+    
+    
+}
+.coluna h1{
+    color: white;
+    padding: 10px;
+    font-size: larger;
+}
+.coluna li{
+    color: white;
+    padding-bottom: 5px;
+   list-style-type: none;
+   text-align: center;
+   font-size: large;
+}

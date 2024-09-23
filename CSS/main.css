@@ -1,5 +1,10 @@
 
+.main{
+    background-color: rgb(255, 248, 167);
+    margin-top: -10px;
+}
 .container-flex-main{
+
     margin: 20px;
     display: grid;
     grid-template-columns: repeat(2,1fr);
@@ -9,9 +14,10 @@
 }
 
 .card-produto-corpo{
-   background-color: aquamarine;
-   border: 0px solid aquamarine;
+   background-color: #FFB11B;
+   border: -1px solid #FFB11B;
    border-radius: 25px;
+   box-shadow: 0px 0px 10px rgb(219, 219, 219);
 }
 .card-produto-elements{
     
@@ -30,14 +36,16 @@
     width: 100%;
 }
 .text-element-main{
-    margin-top: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    margin-top: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
 .text-element-main p{
-    font-size:17px;
+    font-size:15px;
     text-align: center;
 }
 
