@@ -103,4 +103,8 @@
         padding-top: 20px;
         
     }
+    .text-element-main p{
+        font-size:13px;
+        text-align: center;
+    }
 }
